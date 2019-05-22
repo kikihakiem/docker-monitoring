@@ -1,0 +1,3 @@
+data/grafana/grafana.db
+data/prometheus/lock
+data/prometheus/wal/
