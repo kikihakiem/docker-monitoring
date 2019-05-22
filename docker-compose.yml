@@ -12,8 +12,6 @@ services:
       - '--storage.tsdb.path=/prometheus'
     expose:
       - 9090
-    ports:
-      - 9090:9090
     depends_on:
       - cadvisor
 
