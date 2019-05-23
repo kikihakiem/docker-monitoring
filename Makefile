@@ -1,7 +1,7 @@
 .PHONY: default
 default:
 	docker-compose up -d
-	echo "Open your browser and visit http://0.0.0.0:3000"
+	@echo "Open your browser and visit http://0.0.0.0:3000"
 
 clean:
 	docker-compose down
